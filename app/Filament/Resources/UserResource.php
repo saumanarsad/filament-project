@@ -40,7 +40,7 @@ class UserResource extends Resource
                     ->bulkToggleable()
                     ->options([
                         'new' => 'new-User',
-                        'old' => 'Old-User',
+                        'old' => 'Old User',
                         'existing' => 'Existing User'
 
                     ])->disableOptionWhen(fn ($value) => $value == 'new')
