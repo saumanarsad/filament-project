@@ -39,7 +39,7 @@ class UserResource extends Resource
                 CheckboxList::make('Select Options')
                     ->bulkToggleable()
                     ->options([
-                        'new' => 'new-User',
+                        'new' => 'new User',
                         'old' => 'Old User',
                         'existing' => 'Existing User'
 
